@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+@keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@-webkit-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@-moz-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@-o-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+.bar-graph {
+  list-style: none;
+}
+
+.bar-wrap {
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba( 255, 255, 255, 0.4);
+  margin-bottom: 10px;
+}
+
+.bar-fill {
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-animation: bar-fill 1s;
+  -webkit-animation: bar-fill 1s;
+  -ms-animation: bar-fill 1s;
+  animation: bar-fill 1s;
+	animation-delay: 8s;
+  background-color: #4c92d4;
+  display: block;
+  height: 16px;
+  width: 0px;
+	float: left;
+}
+
+p {
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+	color: #000;
+}
+
+.bar{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+	color: #000;
+}

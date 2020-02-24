@@ -1,0 +1,683 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 1440px;
+}
+
+#loader {
+    width: 画像の幅px;
+    height: 画像の高さpx;
+    display: none;
+    position: fixed;
+    _position: absolute; /* IE6対策 */
+    top: 50%;
+    left: 50%;
+    margin-top: -XXpx; /* heightの半分のマイナス値 */
+    margin-left: -XXXpx; /* widthの半分のマイナス値 */
+    z-index: 100;
+}
+
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #809aaf;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}
+
+#header{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 780px;
+	background-color: #fff;
+}
+
+.title-design{
+	position: absolute;
+	margin-top: 17%;
+	margin-left: 34%;
+	width: 35%;
+}
+#header h2{
+	position: absolute;
+	top: 47%;
+	left: 47%;
+	width: 10%;
+	z-index: 5;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 5%;
+	width: 10%;
+	height: 780px;
+	background-color: #fff;
+	z-index: 10;
+}
+
+nav img{
+	width: 85%;
+}
+
+nav a{
+	color: #000;
+}
+nav li{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: lighter;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.logo{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.li-top{
+	padding-top: 40%;
+	text-align: center;
+}
+
+.li-about{
+	padding-top: 40%;
+	text-align: center;
+}
+
+.li-portraito{
+	padding-top: 40%;
+	text-align: center;
+}
+
+.li-contact{
+	padding-top: 40%;
+	text-align: center;
+}
+
+.li-blog{
+	padding-top: 40%;
+	text-align: center;
+}
+
+.non-mobile a:hover{
+	padding: 5%;
+	color: #89ABE3;
+	text-decoration: line-through;
+}
+
+.title-logo{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	z-index: 5;
+}
+
+#aboutme{
+	width: 100%;
+	height: 780px;
+	background-color: #fff;
+}
+
+.about-port{
+	margin-left: 20%;
+	width: 30%;
+	height: 390px;
+}
+
+.about-port img{
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 80%;
+	border-radius: 5px;
+}
+
+.skills{
+	margin-top: 4%;
+	margin-left: 22%;
+	width: 30%;
+	height: 310px;
+}
+
+.about-text{
+	margin-top: -52%;
+	margin-left: 55%;
+	width: 40%;
+	height: 872px;
+}
+
+.about-text img{
+	margin-top: 15%;
+	width: 100%;
+}
+
+#portraito{
+	width: 100%;
+	height: 2700px;
+	background-color: #fff;
+}
+
+#portraito h2{
+	padding-top: 10%;
+	padding-left: 10%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 36px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #000;
+	text-align: center;
+}
+
+.illustration{
+	margin-top: 15%;
+}
+
+.illustration img{
+	margin-left: 21%;
+	width: 35%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+
+.illustration h3{
+	margin-top: -10%;
+	margin-left: -23%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 21px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+
+.illustration a {
+	box-sizing: border-box;
+  outline: 1px solid #FAA625;
+  border: 1px solid #FAA625;
+  background: transparent;
+  background-image: -webkit-linear-gradient(left, #FAA625, #FAA625 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #FAA625 50%, #FAA625);
+  background-image: linear-gradient(left, #FAA625, #FAA625 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #FAA625 50%, #FAA625);
+  background-size: 200% 100%, 200% 100%;
+  background-position: right, left;
+  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+  transition: background-position 0.5s ease, color 0.25s ease;
+	text-decoration: none;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #FAA625;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 26%;
+	padding: 15px 50px;
+	display: inline-block;
+}
+
+.illustration a:hover {
+  background-position: left, right;
+  color: #fff;
+}
+
+.illust-text{
+	margin-top: -47.8%;
+	margin-left: 61%;
+	width: 35%;
+	height: 345px;
+	border-radius: 5px;
+	background-color: #faa625;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+
+.illust-text h4{
+	padding-top: 23%;
+	padding-left: 13%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	line-height: 24px;
+	color: #fff;
+	text-align: left;
+}
+
+.photo-text{
+	margin-top: 1.5%;
+	margin-left: 61%;
+	width: 35%;
+	height: 345px;
+	border-radius: 5px;
+	background-color: #80B5E2;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+
+.photo-text h3{
+	margin-left: 13%;
+	padding-top: 23%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	line-height: 24px;
+	color: #fff;
+	text-align: right;
+	display: inline-block;
+}
+
+.photoshop img{
+	margin-top: 3%;
+	margin-left: 61%;
+	width: 35%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+
+.photoshop h4{
+	margin-top: -10%;
+	margin-left: 58%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 21px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+
+.photoshop a {
+	box-sizing: border-box;
+  outline: 1px solid #80B5E2;
+  border: 1px solid #80B5E2;
+  background: transparent;
+  background-image: -webkit-linear-gradient(left, #80B5E2, #80B5E2 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #80B5E2 50%, #80B5E2);
+  background-image: linear-gradient(left, #80B5E2, #80B5E2 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #80B5E2 50%, #80B5E2);
+  background-size: 200% 100%, 200% 100%;
+  background-position: right, left;
+  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+  transition: background-position 0.5s ease, color 0.25s ease;
+	text-decoration: none;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #80B5E2;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 67%;
+	padding: 15px 50px;
+	display: inline-block;
+}
+
+.photoshop a:hover {
+  background-position: left, right;
+  color: #fff;
+}
+
+.portfolio img{
+	margin-top: -47.8%;
+	margin-left: 21%;
+	width: 35%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+
+.portfolio h3{
+	margin-top: -10%;
+	margin-left: -23%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 21px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+
+.pf-link {
+	box-sizing: border-box;
+  outline: 1px solid #f2ddde;
+  border: 1px solid #f2ddde;
+  background: transparent;
+  background-image: -webkit-linear-gradient(left, #f2ddde, #f2ddde 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #f2ddde 50%, #f2ddde);
+  background-image: linear-gradient(left, #f2ddde, #f2ddde 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #f2ddde 50%, #f2ddde);
+  background-size: 200% 100%, 200% 100%;
+  background-position: right, left;
+  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+  transition: background-position 0.5s ease, color 0.25s ease;
+	text-decoration: none;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #f2ddde;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 26%;
+	padding: 15px 50px;
+	display: inline-block;
+}
+
+.pf-link:hover {
+  background-position: left, right;
+  color: #fff;
+}
+
+.web{
+	position: relative;
+}
+
+.web .bunner{
+	margin-top: 3%;
+	margin-left: 21%;
+	width: 75%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+
+.site-picture{
+	position: absolute;
+	top: 30.3%;
+	left: 60.4%;
+	width: 27%;
+	height: 244px;
+}
+
+.fil{
+	position: absolute;
+	top: 30.3%;
+	left: 60.4%;
+	width: 27%;
+	height: 244px;
+	background-color: rgba( 0, 0, 0, 0.2);
+}
+
+.sub-title{
+	position: absolute;
+	top: 0%;
+	left: 25%;
+	width: 70%;
+	z-index: 5;
+}
+
+.web h3{
+	position: absolute;
+	margin-top: -32%;
+	margin-left: 26%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+	display: block;
+	z-index: 5;
+}
+
+.web h4{
+	position: absolute;
+	margin-top: -8%;
+	margin-left: 25%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 24px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #000;
+	text-align: center;
+	display: block;
+	z-index: 5;
+}
+
+.web a {
+	position: absolute;
+	box-sizing: border-box;
+  outline: 1px solid #68A979;
+  border: 1px solid #68A979;
+  background: transparent;
+  background-image: -webkit-linear-gradient(left, #68A979, #68A979 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #68A979 50%, #68A979);
+  background-image: linear-gradient(left, #68A979, #68A979 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #68A979 50%, #68A979);
+  background-size: 200% 100%, 200% 100%;
+  background-position: right, left;
+  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+  transition: background-position 0.5s ease, color 0.25s ease;
+	text-decoration: none;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #68A979;
+	text-align: center;
+	margin-top: -9.5%;
+	margin-left: 62.2%;
+	padding: 15px 50px;
+	display: inline-block;
+	z-index: 5;
+}
+
+.web a:hover {
+  background-position: left, right;
+  color: #fff;
+}
+
+#contact{
+	width: 100%;
+	height: 1000px;
+	background-color: #fff;
+}
+
+#contact h2{
+	padding-top: 10%;
+	padding-left: 10%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 36px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #000;
+	text-align: center;
+}
+
+.contact-text{
+	margin-top: 15%;
+	margin-left: 0%;
+	padding-left: 10%;
+	font-family: 'Noto Sans Japanese','Hiragino Kaku Gothic','ヒラギノ角ゴ W3','Kozuka Gothic Pro','小塚ゴシックPro';
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+	display: block;
+}
+
+#contact form{
+	margin-top: 10%;
+	margin-left: 36%;
+	width: 40%;
+	height: 600px;
+}
+
+table.formTable{
+	width: 30%;
+	border-collapse:collapse;
+}
+
+table.formTable td,table.formTable th{
+	padding-top: 5%;
+	padding-left: 11%;
+}
+
+table.formTable th{
+	width:20%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+}
+
+table.formTable td{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+	color: #000;
+}
+
+table input{
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.5);
+}
+
+table textarea{
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.5);
+}
+.name{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.number{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.address{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.message{
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.submit{
+	width: 30%;
+	height: 31px;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+	color: #fff;
+	border: 1px solid #243f59;
+	border-radius: 5px 5px 5px 5px;
+	box-sizing: border-box;
+	background-size: 200% 100%;
+	background-image: -webkit-linear-gradient(left, #fff 50%, #243f59 50%);
+	background-image: linear-gradient(left, #fff 50%, #243f59 50%);
+	background-position: 100% 0;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.submit:hover{
+	background-position: 0;
+	color: #243f59;
+}
+
+.reset{
+	width: 30%;
+	height: 31px;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: 100;
+	color: #fff;
+	border: 1px solid #243f59;
+	border-radius: 5px 5px 5px 5px;
+	box-sizing: border-box;
+	background-size: 200% 100%;
+	background-image: -webkit-linear-gradient(left, #fff 50%, #243f59 50%);
+	background-image: linear-gradient(left, #243f59 50%, #243f59 50%);
+	background-position: 100% 0;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.reset:hover{
+	background-position: 0;
+	color: #243f59;
+}
+
+.access{
+	padding-top: 10%;
+	padding-left: 6%;
+	width: 100%;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size:45px;
+    color:#040000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-twitter-square:before {
+    content: "\f081";
+}
+
+.fa-facebook-square:before {
+    content: "\f082";
+}
+
+.fa-rss-square:before {
+    content: "\f143";
+}
+
+.fa-phone-square:before {
+    content: "\f098";
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.access ul{
+	padding-left: 33%;
+}
+.access li{
+	padding-left: 5%;
+	float: left;
+}
+
+.access .fa:hover{
+	color: #438CB5;
+}
+
+#contact small{
+	margin-top: 5%;
+	padding-left: 12%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #000;
+	text-align: center;
+	display: block;
+}
+
+#contact small span{
+	color: #438CB5;
+}

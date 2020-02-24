@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 1440px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#loader {
+    width: 画像の幅px;
+    height: 画像の高さpx;
+    display: none;
+    position: fixed;
+    _position: absolute; /* IE6対策 */
+    top: 50%;
+    left: 50%;
+    margin-top: -XXpx; /* heightの半分のマイナス値 */
+    margin-left: -XXXpx; /* widthの半分のマイナス値 */
+    z-index: 100;
+}
+
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}
+
+header{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.site-title{
+	margin-top: 18%;
+	margin-left: 33%;
+	width: 35%;
+}
+header h2{
+	margin-top: -35%;
+	margin-left: 20%;
+	width: 60%;
+}
+
+.top-link{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 10%;
+}
+
+header p{
+	position: absolute;
+	top: 15%;
+	left: 6%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: lighter;
+	color: #000;
+	letter-spacing: 5px;
+}
+
+.container{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+}
+
+footer img{
+	margin-top: -10%;
+	margin-left: 80%;
+	width: 10%;
+}
+
+footer p{
+	margin-left: 85%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 16px;
+	font-weight: lighter;
+	color: #000;
+	letter-spacing: 5px;
+	display: block;
+}
+
+footer small{
+	margin-top: -1%;
+	font-family: 'Helvetica','Helvetica Neue','Tw Cen MT','Arial';
+	font-size: 14px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: #000;
+	text-align: center;
+	display: block;
+}
+
+footer small span{
+	color: #438CB5;
+}
